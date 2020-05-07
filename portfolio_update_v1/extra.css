@@ -1,0 +1,86 @@
+/* CSS for interest.html */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/hobby.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+   background-color: rgb(170, 162, 240);
+   width: 100%;
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+}
+
+header .h1 {
+    margin: 0;
+}
+
+.wrapper{
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+}
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+h2
+{
+
+color: rgb(233, 91, 157);
+}
+
+footer {
+    background-color: rgb(135, 160, 95);
+    padding: 8px;
+    text-align: right;
+ 
+    
+
+}
+
+@media (min-width: 969px) {
+
+    .wrapper {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .wrap{
+        min-height: calc( 100vh - 73px );
+    }
+
+    .col{
+        float: left;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .first {
+        width: 35%;
+    }
+
+    .second {
+        width: 40%;
+    }
+    .third{
+        width: 25%;
+    }
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+}
